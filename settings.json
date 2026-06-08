@@ -1,0 +1,64 @@
+{
+  "preview_scale": 3.5,
+  "only_show_selected": false,
+  "collapsed_sections": {
+    "Awards": true,
+    "Gorgets": true,
+    "Commendations": true,
+    "Corpus Commendations": true,
+    "Ribbons": true,
+    "ANROCOM Ribbons": true,
+    "HICOM Badges": true,
+    "Brackets": true,
+    "Certifications": true
+  },
+  "sections": {
+    "ANROCOM": [
+      "Doop.png",
+      "me a special.png",
+      "Defying Gravity.png",
+      "Failed Kindergarten.png"
+    ]
+  },
+  "presets": {
+    "Four Basic CERTS": {
+      "ribbons": [
+        "Emergency Certification-CERT",
+        "Grid Certification-CERT",
+        "Solo Certification-CERT",
+        "Turbine Certification-CERT"
+      ],
+      "nameplate": ""
+    },
+    "Pine": {
+      "ribbons": [
+        "AA Commendation-CMD",
+        "ANROSOC 3rd class-RBN",
+        "ANROSOC 4th class-RBN",
+        "Bunny Certification-CERT",
+        "Collector Ribbon 2nd class-RBN",
+        "Emergency Certification-CERT",
+        "Evil Certification-CERT",
+        "Grid Certification-CERT",
+        "Lovely Certification-CERT",
+        "Mount Everest-RBN",
+        "NIRU Commendation-CMD",
+        "QRM Commendation-CMD",
+        "Service Ribbon 3rd Class-RBN",
+        "Solo Certification-CERT",
+        "Supervisor Certification-CERT",
+        "The Terrible-ANROCOM",
+        "Turbine Certification-CERT",
+        "Turbine Tournament-RBN",
+        "Waterloo At Home-RBN"
+      ],
+      "nameplate": "Pine"
+    }
+  },
+  "theme": "dark",
+  "preview_overlay": true,
+  "overlay_source_path": "c:\\Projects\\Ribbon Engine\\Characters\\anro_hr_formals_template.png",
+  "profile": "default",
+  "case_sensitive_search": false,
+  "selected_preset": "Pine"
+}

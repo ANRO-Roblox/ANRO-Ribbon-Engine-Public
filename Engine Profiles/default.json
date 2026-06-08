@@ -1,0 +1,146 @@
+{
+    "image_size":  128,
+    "ribbon_area_width":  43,
+    "max_medals_per_side":  3,
+    "default_nameplate_width":  31,
+    "nameplate_letter_spacing":  1,
+    "hover_preview_size":  96,
+    "part_coords":  {
+                        "corpus":  [
+                                       8,
+                                       16
+                                   ],
+                        "nametape":  [
+                                         13,
+                                         31
+                                     ],
+                        "sacks":  [
+                                      14,
+                                      62
+                                  ],
+                        "commendations":  [
+                                              8,
+                                              25
+                                          ],
+                        "ribbons":  [
+                                        80,
+                                        33
+                                    ],
+                        "gorget":  [
+                                       43,
+                                       0
+                                   ],
+                        "spbadge":  [
+                                        90,
+                                        59
+                                    ],
+                        "hicom":  [
+                                        11,
+                                        44
+                                    ],
+                        "brackets":  [
+                                        8,
+                                        86
+                                    ],
+                        "certifications":  [
+                                               8,
+                                               50
+                                           ]
+                    },
+    "offsets":  {
+                    "pocket_col_spacing":  15,
+                    "pocket_right_offset":  71,
+                    "pocket_x_offset":  -14,
+                    "corpus_x_offset":  0,
+                    "ribbons_right_align_offset":  -2
+                },
+    "medals":  {
+                   "award_names":  [
+                                       "Diamond Medal",
+                                       "Galaxy Medal",
+                                       "Quantum Medal"
+                                   ],
+                   "bonus_names":  [
+                                       "ANROSOC Medal",
+                                       "Teto Medal",
+                                       "Teto Medal Shiny"
+                                   ],
+                   "single_order":  [
+                                        "middle",
+                                        "left",
+                                        "right"
+                                    ],
+                   "multi_order":  [
+                                       "left",
+                                       "middle",
+                                       "right"
+                                   ]
+               },
+    "ribbon_rows":  {
+                        "centered_row_capacity":  4,
+                        "right_start_row":  5,
+                        "first_right_row_capacity":  3,
+                        "subsequent_right_row_capacity":  2
+                    },
+    "character_aliases":  {
+                              " ":  "Space",
+                              ".":  "Period"
+                          },
+    "ui":  {
+               "expanded_icon":  "▾",
+               "collapsed_icon":  "▸",
+               "certification_keyword":  "certification",
+               "certifications_label":  "Certifications",
+               "anrocom_label":  "ANROCOM Ribbons",
+               "anrocom_settings_key":  "ANROCOM"
+           },
+    "preview_overlay":  {
+                            "template_size":  [
+                                                  585,
+                                                  559
+                                              ],
+                            "front_crop_box":  [
+                                                   132,
+                                                   74,
+                                                   260,
+                                                   202
+                                               ]
+                        },
+    "categories":  {
+                       "labels":  {
+                                      "sacks":  "Awards",
+                                      "gorget":  "Gorgets",
+                                      "spbadge":  "Special Badges",
+                                      "commendations":  "Commendations",
+                                      "corpus":  "Corpus Commendations",
+                                      "ribbons":  "Ribbons",
+                                      "anrocom":  "ANROCOM Ribbons",
+                                      "hicom":  "HICOM Badges",
+                                      "brackets":  "Brackets",
+                                      "certifications":  "Certifications"
+                                  },
+                       "enabled":  [
+                                       "corpus",
+                                       "commendations",
+                                       "certifications",
+                                       "gorget",
+                                       "ribbons",
+                                       "anrocom",
+                                       "sacks",
+                                       "spbadge",
+                                       "hicom",
+                                       "brackets"
+                                   ],
+                       "placement": {
+                                       "certifications": "left",
+                                       "ribbons": "left",
+                                       "anrocom": "left",
+                                       "hicom": "left",
+                                       "brackets": "right"
+                                   },
+                       "allowed_assets":  {
+
+                                          }
+                   },
+    "selected_shirt":  ""
+}

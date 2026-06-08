@@ -1,0 +1,29 @@
+Acceptable characters for nametape:
+abcdefghijklmnopqrstuvwxyz " " . 1234567890
+
+Clear all removes all set data (Resets to blank slate)
+
+layoutTuner was made to assist in creating new positions for ribbons. A lot of department formals dont actually fit our ribbons properly, so this is how we get around that issue now.
+
+Ribbons image import workflow (new):
+- Create an `Images` folder in the root of the app (or `images`), if it does not already exist.
+- Drop PNGs directly into `Images/` (recursive scan by subfolder is supported).
+- Use filename suffix conventions to auto-route into the correct category:
+  - `-RBN` or `-ribbon` → Ribbons
+  - `-CMD` or `-commendation` → Commendations
+  - `-CCMD` → Corpus Commendations
+  - `-BDG` or `-badge` → SpBadge
+  - `-AWD` or `-award` → Awards/Sacks
+  - `-BRK` or `-bracket` → Brackets
+  - `-QMBRK` → Quartermaster pocket bracket
+  - `-ANROCOM` → ANROCOM Ribbons
+  - `-HICOM` → HICOM Badges
+  - `-GORGET`, `-CORPUS` → Gorget/legacy Corpus routing
+  - `-CERT` or `-certification` → Certifications
+- If suffix is missing, the loader uses fallback keyword matching.
+
+Credits:
+lolcraft101_owner - Nametape Characters
+djsogge - ribbon engine (assisted by chatgpt)
+potato - ribbon engine v2 + v2.5
+ldkpine - ribbon engine v3
